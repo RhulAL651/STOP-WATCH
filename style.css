@@ -1,0 +1,61 @@
+/* *{
+  default padding and margin we dont need  & border box i s to not over flow
+    padding: 0;
+    margin: 0px;
+    IF WE REmove this we get default margin and padding 
+} */
+body{
+
+
+    /* background-image: linear-gradient(rgb(6, 54, 71),white );  */
+    background: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    image-resolution: 100%;
+    
+}
+
+
+.container{
+
+
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content:center;
+    align-items: center;
+    /* border:2px solid black ; */
+    /* border-radius: 10px; */
+    height: 100vh;
+    text-align: center;
+}
+.box{
+
+    border: 3px solid black;
+    border-radius: 20px;
+}
+h1{
+
+    font-size: 2.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+
+    font-size: 2rem;
+    margin: 0.5rem;
+   
+}
+button{
+   /*  inside button padding: top& bootom */
+   background-color: rgb(4, 5, 12);
+   color: white;
+   padding: 1rem 2rem;
+   border-radius: 30px;
+   font-size: 1rem;
+   margin: 1rem;
+}
+
+button:hover{
+
+    background-color: rgb(75, 85, 85);
+}
